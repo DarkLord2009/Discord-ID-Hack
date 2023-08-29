@@ -11,7 +11,7 @@ if not __name__ == "__main__":
 # Imports
 
 try:
-	import base64
+	import base64 
 	import time
 	import os
 	import grequests
@@ -50,7 +50,7 @@ def enter_id():
 
 
 
-	encodeduserid = base64.b64encode(str(userid).encode('ascii'))
+	encodeduserid = base64.b64encode(str(965960888760811600).encode('ascii'))
 	return encodeduserid
 
 
